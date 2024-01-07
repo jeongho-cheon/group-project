@@ -1,0 +1,11 @@
+PS C:\study\gitgroup> git init
+PS C:\study\gitgroup> git add .
+PS C:\study\gitgroup> git status
+PS C:\study\gitgroup> git commit -m "first commit"
+PS C:\study\gitgroup> git remote add origin https://github.com/jeongho-cheon/group-project.git
+PS C:\study\gitgroup> git remote -v
+origin  https://github.com/jeongho-cheon/group-project.git (push)
+PS C:\study\gitgroup> git remote -v
+origin  https://github.com/jeongho-cheon/group-project.git (fetch)
+origin  https://github.com/jeongho-cheon/group-project.git (push)
+PS C:\study\gitgroup> git push -u origin master
